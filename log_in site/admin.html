@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> admin </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <h1>University Management System</h1>
+</head>
+
+<body>
+
+
+    <div id="button-container">
+        <button id="b1"><i class="fa-sharp fa-solid fa-user"></i> admin</button>
+        <button id="b2"><i class="fa-sharp fa-light fa-gear"></i> option</button>
+        <button id="b3" onclick="location.href='index2.html'"><i class="fa-solid fa-right-from-bracket"></i>  log out</button>
+    </div>
+    <table>
+        <tr>
+            <th>Student</th>
+            <th>Factuality</th>
+        </tr>
+        <tr>
+            <td>
+
+                <a href="viewstudent.php">view all student </a>
+
+            </td>
+
+            <td><a href="factualitydetails.php">Factuality details</a> </td>
+        </tr>
+        <tr>
+            <td><a href="studentresult.php"> Student result </a> </td>
+            <td> <a href="info.php"> Information </a> </td>
+        </tr>
+
+        <tr>
+            <td> Attendance </td>
+            <td> Search Factuality</td>
+        </tr>
+        <tr>
+            <td> <button onclick="downloadStudentList()">Download Student List</button>
+            </td>
+            <td> <button onclick="downloadFactualityllist()">Download Factuality List</button>
+            </td>
+        </tr>
+
+    </table>
+</body>
+
+</html>

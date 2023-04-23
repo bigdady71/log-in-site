@@ -1,0 +1,2 @@
+step 1 : excute the sql query in Xampp
+step 2 : feel free to use/modify the source code

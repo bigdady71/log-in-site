@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style2.2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <h1>University Management System</h1>
+    <title>
+index
+    </title>
+
+</head>
+
+<body>
+    <!-- Administrator / login ** Factuality area / login / profile / class/ attendance
+** Student area / logib / Register/Profile/Result -->
+    <form action="connect.php" method="POST">
+        <div style="display: flex; flex-direction: column; position: absolute; top: 0cm; left: 0;">
+            <div class="dropdown">
+                <button class="dropbtn">Administrator</button>
+                <div class="dropdown-content">
+                    <a href="index2.html">Login</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Factuality area</button>
+                <div class="dropdown-content">
+                    <a href="index2.html">Login</a>
+                    <a href="#">Profile</a>
+                    <a href="#">Class</a>
+                    <a href="#">Attendance</a>
+                </div>
+            </div>
+
+            <div class="dropdown1">
+                <button class="dropbtn1">Student area</button>
+                <div class="dropdown-content1">
+                    <a href="index2.html">Login</a>
+                    <a href="index.html">Register</a>
+                    <a href="#">Profile</a>
+                    <a href="#">Result</a>
+                </div>
+            </div>
+        </div>
+   </form>
+        <form action="login.php" method="POST" id="form1">
+            <h2><i class="fa-solid fa-circle-user">Admin log in</i></h2>
+            <label for="username">Username</label>
+            <input type="text" id="name" name="name" placeholder="Enter your username">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+            <button id="b5" onclick="location.href='login.php'">login </button>
+            <button type="reset" id="b51">reset</button>
+</form>
+<button id="b6" onclick="location.href='index.html'">register an accounte</button>
+    
+ 
+</body>
+
+</html>
